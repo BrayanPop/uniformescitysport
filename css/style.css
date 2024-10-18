@@ -1,0 +1,829 @@
+/* General */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+
+}
+
+.body{
+    background-color: #007bff;
+}
+
+
+h2{
+    text-align: center;
+}
+
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    
+    
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    height: 3rem;
+    font-size: 1rem;
+}
+
+.logo h1 {
+    margin: 0;
+    
+}
+
+.menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    text-align: center;
+    
+}
+
+.menu li {
+    position: relative;
+   
+}
+
+.menu a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+}
+
+.menu a:hover {
+    background-color: #555;
+}
+
+.dropdown-content {
+    display: none;
+
+    position: absolute;
+    background-color: #333;
+    min-width: 160px;
+    z-index: 3;
+}
+
+.dropdown-content a {
+    padding: 12px 16px;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #555;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.hero {
+    background-color: #dbdadf;
+    
+    padding: 20px;
+    text-align: center;
+}
+
+
+.products {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.producto {
+    border: 1px solid #0e0d0d;
+    border-radius: 5px;
+    padding: 15px;
+    text-align: center;
+    background-color: none;
+}
+
+.producto img {
+    max-width: 50%;
+}
+
+.producto h3 {
+    margin: 10px 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.producto span {
+    display: block;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+.producto button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    
+    border-radius: 5px;
+}
+
+.producto button:hover {
+    background-color: #218838;
+}
+
+/*foter*/
+footer {
+    background: #070707;
+    color: #fff;
+    text-align: center;
+    padding: 1px 0;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
+
+/*logo*/
+.logo1{
+
+text-align: center;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+background-color: #28a745;
+
+}
+
+.log{
+height: 200px;
+width: 300px;
+
+
+}
+
+
+/*contacto*/
+.contact-info{
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+
+
+}
+h4{
+    text-align: center;
+    color: #ddd;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1rem;
+}
+
+.containers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 0 20px;
+
+}
+
+.formulario {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+}
+
+.formulario h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.formulario label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+
+.formulario input, 
+.formulario textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.formulario button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+}
+
+
+.formulario button:hover {
+    background-color: #0056b3;
+}
+
+/* Responsividad */
+@media (max-width: 600px) {
+    .formulario {
+        padding: 15px;
+    }
+
+    .formulario h1 {
+        font-size: 20px;
+    }
+
+    .formulario button {
+        padding: 12px;
+        font-size: 14px;
+    }
+}
+
+
+
+
+
+ /*nosotros*/
+
+ 
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.image-container {
+    flex: 1;
+    min-width: 300px;
+    padding: 4rem;
+    max-width: 400px;
+    text-align: center;
+    
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.text-content {
+    flex: 2;
+    min-width: 300px;
+    max-width: 600px;
+}
+
+.text-content h1 {
+    margin-bottom: 10px;
+    font-size: 2em;
+}
+
+.text-content p {
+    font-size: 1em;
+    line-height: 1.6rem;
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+
+
+/*nosotros2*/
+h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #0c2844;
+    text-align: center;
+}
+
+p{
+    margin-bottom: 15px;
+    font-size: 1rem;
+    height: 20px;
+
+}
+
+
+/*ropa de niños*/
+
+
+main {
+    padding: 1rem;
+}
+
+
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.product {
+    background: #fff;
+    border: 1px solid #1d1c1c;
+    border-radius: 8px;
+    overflow: hidden;
+    width: calc(50% - 1rem);
+    box-sizing: border-box;
+    padding: 1rem;
+    text-align: center;
+    background-color: none;
+}
+
+.product img {
+    width: 40%;
+    height: auto;
+
+}
+
+.product h2 {
+    margin: 0.5rem 0;
+    font-size: 1.2rem;
+}
+
+.product p {
+    margin: 0.5rem 0;
+}
+
+.price {
+    font-weight: bold;
+    color: #333;
+}
+
+/*fondos*/
+
+.fondoss{
+    background-image: url(../img/fondocity.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 15rem;
+    position: relative;
+    background-color: rgba(red, green, blue);
+    
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #0c2844;
+    padding: 1rem;
+}
+.fondoss1{
+    background-image: url(../img/fondo6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 15rem;
+    position: relative;
+    background-color: rgba(red, green, blue);
+    
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.fondoss2{
+    background-image: url(../img/fondo-liso-gradiente.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 15rem;
+    position: relative;
+    background-color: rgba(red, green, blue);
+    
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.fondoss3{
+    background-image: url(../img/fondo5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 15rem;
+    position: relative;
+    background-color: rgba(red, green, blue);
+    width: 98.1%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/*fondos logo*/
+
+.fondoss4{
+    background-image: url(../img/fondocity2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 15rem;
+    position: relative;
+    background-color: rgba(red, green, blue);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.fondoss5{
+    background-image: url(../img/fondocity1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 15rem;
+    position: relative;
+    background-color: rgba(red, green, blue);
+    
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.fondoss7{
+    background-image: url(../img/descargacity2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 15rem;
+    position: relative;
+    background-color: rgba(red, green, blue);
+    
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+
+
+.fondoss8{
+    background-image: url(../img/descargacity2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 15rem;
+    position: relative;
+    background-color: rgba(red, green, blue);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.fondoss9{
+    background-image: url(../img/fondofutcity.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 15rem;
+    position: relative;
+    background-color: rgba(red, green, blue);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/*fondo producto*/
+
+
+.fondos10{
+    background-image: url(../img/fondomenu.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 15rem;
+    position: relative;
+    background-color: rgba(red, green, blue);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.fondos11{
+    background-image: url(../img/fondomenu2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 15rem;
+    position: relative;
+    background-color: rgba(red, green, blue);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.fondos12{
+    background-image: url(../img/fondomenu3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 15rem;
+    position: relative;
+    background-color: rgba(red, green, blue);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.fondos13{
+    background-image: url(../img/ropa-deportiva-ropa-gimnasia.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 15rem;
+    position: relative;
+    background-color: rgba(red, green, blue);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+/* Estilo para la sección de redes sociales */
+.social-media {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    align-items: center;
+    background-color: #f4f4f4;
+}
+
+.social-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 110px;
+    height: 50px;
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    border-radius: none;
+    margin: 10px;
+    transition: background-color 0.3s;
+}
+
+.facebook {
+    background-color: #3b5998;
+}
+
+.twitter {
+    background-color: #1da1f2;
+}
+
+.instagram {
+    background-color: #e1306c;
+}
+
+.Whatsapp {
+    background-color: #0ba832;
+}
+
+.social-icon:hover {
+    opacity: 0.8;
+}
+
+@media (max-width: 600px) {
+    .social-icon {
+        width: 110x;
+        height: 40px;
+        font-size: 20px;
+
+        margin: 8px;
+    }
+}
+
+/*redes sociales*/
+
+
+
+
+/* Estilo para la sección de envío */
+.shipping {
+    background-color: #ffffff;
+    padding: 20px;
+    border-top: 1px solid #ddd;
+}
+
+.shipping h2 {
+    margin: 0 0 10px;
+    color: #333;
+}
+
+.shipping p {
+    margin: 0 0 10px;
+    color: #555;
+}
+
+.shipping ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.shipping li {
+    margin-bottom: 10px;
+}
+
+.shipping strong {
+    color: #333;
+}
+
+
+
+
+/*media cueri*/
+@media (max-width: 768px) {
+    .formulario {
+        padding: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .input-text {
+        padding: 8px;
+    }
+    
+    .submit-button {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+}
+
+
+
+
+@media (max-width: 768px) {
+    .social-media ul {
+        justify-content: center;
+    }
+
+    .social-media li {
+        margin: 5px;
+    }
+
+    .shipping svg {
+        width: 36px;
+        height: 36px;
+    }
+
+    .shipping p {
+        font-size: 1em;
+    }
+}
+
+@media (max-width: 480px) {
+    .social-media ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .social-media li {
+        margin-bottom: 10px;
+    }
+
+    .shipping {
+        padding: 10px;
+    }
+
+    .shipping svg {
+        width: 30px;
+        height: 30px;
+    }
+
+    .shipping p {
+        font-size: 0.9em;
+    }
+}
+
+
+/**/
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1.5em;
+    }
+
+    p {
+        font-size: 0.9em;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.2em;
+    }
+
+    p {
+        font-size: 0.8em;
+    }
+
+    .container {
+        padding: 10px;
+    }
+}
+
+
+/*talla*/
+
+.formulario {
+    background-color: #f8f3f3;
+
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+.formulario h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.formulario label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.formulario select {
+    width: 100%;
+    padding: 8px;
+
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.formulario button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+}
+
+.formulario button:hover {
+    background-color: #0056b3;
+}
+
+/* Responsivida */
+@media (max-width: 600px) {
+    .formulario {
+        padding: 9px;
+    }
+
+    .formulario h1 {
+        font-size: 20px;
+    }
+
+    .formulario button {
+        padding: 12px;
+        font-size: 14px;
+    }
+}
+
+
